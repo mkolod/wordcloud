@@ -1,0 +1,438 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+43 items
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/Dependencies$$anonfun$playApp$1.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/Dependencies$$anonfun$scalaJs$1.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/Dependencies$$anonfun$shared$1.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/Dependencies$.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/Dependencies.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/Versions$.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/Versions.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$copySourceMapsTask$1$$anonfun$apply$1.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$copySourceMapsTask$1.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playApp$2.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playApp$3.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playApp$4.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playApp$5.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playAppSettings$1.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playAppSettings$2.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playAppSettings$3.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playAppSettings$4.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playAppSettings$5.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playAppSettings$6.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJs$2.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJs$3.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJs$4.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJs$5.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJsSettings$1.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJsSettings$2.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJsSettings$3.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJsSettings$4.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJsSettings$5.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJsSettings$6.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJsSettings$7.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedDirectorySettings$1.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedDirectorySettings$2.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedDirectorySettings$3.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedDirectorySettings$4.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedScala$1.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedScala$2.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedScala$3.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedScala$4.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedScalaSettings$1.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedScalaSettings$2.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$startCommand$1.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$.class
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild.class
+binary dependencies:
+20 items
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-tools_2.10/jars/scalajs-tools_2.10-0.5.6.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.ivy2/cache/org.scala-sbt/apply-macro/jars/apply-macro-0.13.7.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.7.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.ivy2/cache/org.scala-sbt/command/jars/command-0.13.7.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.ivy2/cache/org.scala-sbt/control/jars/control-0.13.7.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.ivy2/cache/org.scala-sbt/incremental-compiler/jars/incremental-compiler-0.13.7.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.ivy2/cache/org.scala-sbt/io/jars/io-0.13.7.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.7.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.ivy2/cache/org.scala-sbt/launcher-interface/jars/launcher-interface-0.13.7.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.ivy2/cache/org.scala-sbt/logging/jars/logging-0.13.7.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.7.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.7.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.7.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.ivy2/cache/org.scala-sbt/task-system/jars/task-system-0.13.7.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.play/sbt-plugin/jars/sbt-plugin-2.3.7.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-native-packager/jars/sbt-native-packager-0.7.4.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-core/jars/sbteclipse-core-2.4.0.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.ivy2/cache/scala_2.10/sbt_0.13/org.scala-lang.modules.scalajs/scalajs-sbt-plugin/jars/scalajs-sbt-plugin-0.5.6.jar
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /Users/mkolodziej/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+43 items
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Dependencies
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Dependencies$
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Dependencies$$anonfun$playApp$1
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Dependencies$$anonfun$scalaJs$1
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Dependencies$$anonfun$shared$1
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Versions
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Versions$
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$copySourceMapsTask$1
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$copySourceMapsTask$1$$anonfun$apply$1
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$playApp$2
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$playApp$3
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$playApp$4
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$playApp$5
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$playAppSettings$1
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$playAppSettings$2
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$playAppSettings$3
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$playAppSettings$4
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$playAppSettings$5
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$playAppSettings$6
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$scalaJs$2
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$scalaJs$3
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$scalaJs$4
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$scalaJs$5
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$scalaJsSettings$1
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$scalaJsSettings$2
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$scalaJsSettings$3
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$scalaJsSettings$4
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$scalaJsSettings$5
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$scalaJsSettings$6
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$scalaJsSettings$7
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$sharedDirectorySettings$1
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$sharedDirectorySettings$2
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$sharedDirectorySettings$3
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$sharedDirectorySettings$4
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$sharedScala$1
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$sharedScala$2
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$sharedScala$3
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$sharedScala$4
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$sharedScalaSettings$1
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$sharedScalaSettings$2
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild$$anonfun$startCommand$1
+used names:
+165 items
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> $p1
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> %
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> %%
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> %%%
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> **
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> ++
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> ++=
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> +:
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> +=
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> /
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> :=
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> <<=
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> <init>
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> ?
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> AList
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> AnyRef
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Append
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Build
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Command
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Compile
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> ConfigKey
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> CrossVersion
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Def
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Dependencies
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> EclipseKeys
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> EclipsePlugin
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> File
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> FullInstance
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> IO
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> InitializeInstance
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> InputWrapper
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Keys
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> ManifestFactory
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Play
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> PlayScala
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Predef
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Project
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> ScalaJSCrossVersion
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> ScalaJSGroupID
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> ScalaJSKeys
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> ScalaJSPlugin
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Scoped
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Seq
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> SettingKey
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> State
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> String
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> StringContext
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Test
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> UniversalKeys
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> Versions
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> WordCloudBuild
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> _1
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> _2
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> aggregate
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> app
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> append1
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> appendN
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> appendSeq
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> apply
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> args
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> base
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> binary
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> canBuildFrom
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> classDirectory
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> classType
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> collection
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> com
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> commands
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> compile
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> configurationToKey
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> copyFile
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> copySourceMapsTask
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> core
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> cross
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> dependsOn
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> dist
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> enablePlugins
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> fastOptJS
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> file
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> filesToFinder
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> foreach
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> fullOptJS
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> get
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> getCanonicalPath
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> getPath
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> globFilter
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> in
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> isDefined
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> jsDependencies
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> libraryDependencies
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> macroValueI
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> make
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> map
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> mkString
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> moduleIDConfigurable
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> name
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> package
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> packager
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> parser
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> persistLauncher
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> play
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> playApp
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> playAppSettings
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> playStartCmd
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> playStartCommand
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> project
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> projectToRef
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> pure
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> reflect
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> relativeSourceMaps
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> remainingCommands
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> richFile
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> richInitializeTask
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> runTask
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> s
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> sbt
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> sbteclipse
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> sbtplugin
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> scala
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> scalaFile
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> scalaFiles
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> scalaJSSettings
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> scalaJSVersion
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> scalaJs
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> scalaJsDom
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> scalaJsSettings
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> scalaVersion
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> scalajs
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> scalajsOutputDir
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> set
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> setting
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> settingKey
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> settings
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> shared
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> sharedDirectorySettings
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> sharedScala
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> sharedScalaSettings
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> sharedSrcDir
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> stage
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> startCommand
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> state
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> target
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> task
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> taskScopedToKey
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> toGroupID
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> toITask
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> toScalaJSGroupID
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> tuple2
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> typesafe
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> universal
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> unmanagedResourceDirectories
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> unmanagedSourceDirectories
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> value
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> version
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> withCross
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> wrapInit_☃☃
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> x$10
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> x$2
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> x$3
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> x$4
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> x$5
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> x$6
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> x$7
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> x$8
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> x$9
+product stamps:
+43 items
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/Dependencies$$anonfun$playApp$1.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/Dependencies$$anonfun$scalaJs$1.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/Dependencies$$anonfun$shared$1.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/Dependencies$.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/Dependencies.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/Versions$.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/Versions.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$copySourceMapsTask$1$$anonfun$apply$1.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$copySourceMapsTask$1.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playApp$2.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playApp$3.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playApp$4.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playApp$5.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playAppSettings$1.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playAppSettings$2.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playAppSettings$3.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playAppSettings$4.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playAppSettings$5.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$playAppSettings$6.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJs$2.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJs$3.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJs$4.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJs$5.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJsSettings$1.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJsSettings$2.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJsSettings$3.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJsSettings$4.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJsSettings$5.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJsSettings$6.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$scalaJsSettings$7.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedDirectorySettings$1.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedDirectorySettings$2.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedDirectorySettings$3.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedDirectorySettings$4.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedScala$1.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedScala$2.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedScala$3.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedScala$4.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedScalaSettings$1.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$sharedScalaSettings$2.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$$anonfun$startCommand$1.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild$.class -> lastModified(1421959740000)
+/Users/mkolodziej/src/wordcloud/project/target/scala-2.10/sbt-0.13/classes/WordCloudBuild.class -> lastModified(1421959740000)
+source stamps:
+1 items
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> hash(e1d7560ae3c64762e9fd7847e7af4bc33882acd8)
+binary stamps:
+20 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1410998958000)
+/Users/mkolodziej/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-tools_2.10/jars/scalajs-tools_2.10-0.5.6.jar -> lastModified(1416401547000)
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/apply-macro/jars/apply-macro-0.13.7.jar -> lastModified(1416378822000)
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.7.jar -> lastModified(1416378820000)
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/command/jars/command-0.13.7.jar -> lastModified(1416378930000)
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/control/jars/control-0.13.7.jar -> lastModified(1416378794000)
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/incremental-compiler/jars/incremental-compiler-0.13.7.jar -> lastModified(1416378928000)
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/io/jars/io-0.13.7.jar -> lastModified(1416378799000)
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.7.jar -> lastModified(1416378891000)
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/launcher-interface/jars/launcher-interface-0.13.7.jar -> lastModified(1416378806000)
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/logging/jars/logging-0.13.7.jar -> lastModified(1416378859000)
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.7.jar -> lastModified(1416378944000)
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.7.jar -> lastModified(1416378959000)
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.7.jar -> lastModified(1416378955000)
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/task-system/jars/task-system-0.13.7.jar -> lastModified(1416378938000)
+/Users/mkolodziej/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.play/sbt-plugin/jars/sbt-plugin-2.3.7.jar -> lastModified(1417651943000)
+/Users/mkolodziej/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-native-packager/jars/sbt-native-packager-0.7.4.jar -> lastModified(1406583374000)
+/Users/mkolodziej/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-core/jars/sbteclipse-core-2.4.0.jar -> lastModified(1382114572000)
+/Users/mkolodziej/.ivy2/cache/scala_2.10/sbt_0.13/org.scala-lang.modules.scalajs/scalajs-sbt-plugin/jars/scalajs-sbt-plugin-0.5.6.jar -> lastModified(1416402041000)
+/Users/mkolodziej/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> lastModified(1395179187000)
+class names:
+20 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/mkolodziej/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-tools_2.10/jars/scalajs-tools_2.10-0.5.6.jar -> scala.scalajs.tools.classpath.CompleteNCClasspath
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/apply-macro/jars/apply-macro-0.13.7.jar -> sbt.appmacro.Instance$
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.7.jar -> sbt.LinePosition$
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/command/jars/command-0.13.7.jar -> sbt.State$
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/control/jars/control-0.13.7.jar -> sbt.ExitHook
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/incremental-compiler/jars/incremental-compiler-0.13.7.jar -> sbt.inc.Analysis
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/io/jars/io-0.13.7.jar -> sbt.PathFinder
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.7.jar -> sbt.ModuleID
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/launcher-interface/jars/launcher-interface-0.13.7.jar -> xsbti.AppConfiguration
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/logging/jars/logging-0.13.7.jar -> sbt.GlobalLogging
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.7.jar -> sbt.Scoped$
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.7.jar -> sbt.Build
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.7.jar -> sbt.package$
+/Users/mkolodziej/.ivy2/cache/org.scala-sbt/task-system/jars/task-system-0.13.7.jar -> sbt.Task
+/Users/mkolodziej/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.play/sbt-plugin/jars/sbt-plugin-2.3.7.jar -> play.PlayRun
+/Users/mkolodziej/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-native-packager/jars/sbt-native-packager-0.7.4.jar -> com.typesafe.sbt.packager.universal.UniversalKeys
+/Users/mkolodziej/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-core/jars/sbteclipse-core-2.4.0.jar -> com.typesafe.sbteclipse.core.EclipsePlugin
+/Users/mkolodziej/.ivy2/cache/scala_2.10/sbt_0.13/org.scala-lang.modules.scalajs/scalajs-sbt-plugin/jars/scalajs-sbt-plugin-0.5.6.jar -> scala.scalajs.sbtplugin.ScalaJSCrossVersion$
+/Users/mkolodziej/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> scala.collection.TraversableLike
+internal apis:
+1 items
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDa0QP5AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAMnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cL1MN9h0AAZub3RpZnlzcQB+AAy4uXV/dAAHcGxheUFwcHNxAH4ADJyWBXl0AAxzdGFydENvbW1hbmRzcQB+AAxpoCeZdAATc2hhcmVkU2NhbGFTZXR0aW5nc3NxAH4ADE198R90AAVzdGFnZXNxAH4ADDnr/Lx0AAR3YWl0c3EAfgAM19rxKnQADSRhc0luc3RhbmNlT2ZzcQB+AAwUMuBBdAAQcGxheVN0YXJ0Q29tbWFuZHNxAH4ADG1vE3N0AAxidWlsZExvYWRlcnNzcQB+AAzIegX7dAAGc2hhcmVkc3EAfgAMbvh8jHQABmVxdWFsc3NxAH4ADEJbjGh0AApzY2FsYUpzRG9tc3EAfgAMByCbhXQADGFzSW5zdGFuY2VPZnNxAH4ADOR6Tdl0ABJwcm9qZWN0RGVmaW5pdGlvbnNzcQB+AAxzxGKQdAAIVmVyc2lvbnNzcQB+AAz6pD3EdAAOV29yZENsb3VkQnVpbGRzcQB+AAyLXgsSdAAMc3luY2hyb25pemVkc3EAfgAMnW1tVHQADERlcGVuZGVuY2llc3NxAH4ADK9hnRd0AA0kaXNJbnN0YW5jZU9mc3EAfgAMS41plXQAEXBhY2thZ2VaaXBUYXJiYWxsc3EAfgAMTBEH9HQACW5vdGlmeUFsbHNxAH4ADFtkyYN0AAtyb290UHJvamVjdHNxAH4ADIVOVoN0AA1wYWNrYWdlT3N4RG1nc3EAfgAMZ77GNnQADGlzSW5zdGFuY2VPZnNxAH4ADInsRIB0AAxzaGFyZWRTcmNEaXJzcQB+AAwZc7BOdAAEZGlzdHNxAH4ADPfnLm90ABBzdGFnaW5nRGlyZWN0b3J5c3EAfgAMf+Ax/XQADHBsYXlTdGFydENtZHNxAH4ADPVbESF0AAI9PXNxAH4ADER54250AAVjbG9uZXNxAH4ADCNrAyR0AAVzY2FsYXNxAH4ADLCqqph0AANhcHBzcQB+AAyihMVadAALc2hhcmVkU2NhbGFzcQB+AAxmczL9dAAIdG9TdHJpbmdzcQB+AAzkM+yKdAAQc2NhbGFqc091dHB1dERpcnNxAH4ADOm8DLl0ABJjb3B5U291cmNlTWFwc1Rhc2tzcQB+AAzbeAWUdAAPc2NhbGFKc1NldHRpbmdzc3EAfgAMCE9WynQAAiE9c3EAfgAM7yWjOHQACHByb2plY3Rzc3EAfgAMqodNpnQACGdldENsYXNzc3EAfgAMWq9TzHQAF3NoYXJlZERpcmVjdG9yeVNldHRpbmdzc3EAfgAM36fAdXQAB3NjYWxhSnNzcQB+AAyQhii5dAACbmVzcQB+AAwuwpxqdAAPcGxheUFwcFNldHRpbmdzc3EAfgAMAlorh3QAAmVxc3EAfgAMljzfTHQACHNldHRpbmdzc3EAfgAM7HpQ4HQAAiMjc3EAfgAMp7DJJHQACGZpbmFsaXplc3EAfgAMENerhnQACGhhc2hDb2Rlc3EAfgAMXEJ+e3QAEHBhY2thZ2VYelRhcmJhbGxzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAADc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgB7eHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+ADF1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biR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
+external apis:
+0 items
+source infos:
+1 items
+/Users/mkolodziej/src/wordcloud/project/Build.scala -> 
+AAAAAAAAAAA=
+compilations:
+19 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxL0c8B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxL6ibF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxL7hxF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxL8DwN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxL8VV11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxL9SOp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxL/3Vp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxMA1pB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxMNOgR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxMWWzR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxMXrNJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxMcmdt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxMeG2Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxMeXIx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+14 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxMgTW11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+15 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxModb51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+16 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxMyGWF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+17 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxNlfAF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+18 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSxNntbt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9ta29sb2R6aWVqL3NyYy93b3JkY2xvdWQvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==

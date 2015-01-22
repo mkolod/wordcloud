@@ -1,0 +1,12 @@
+[0m[[0minfo[0m] [0mFast optimizing /Users/mkolodziej/src/wordcloud/scalaJs/target/scala-2.11/scalajs-fastopt.js[0m
+[0m[[0mdebug[0m] [0mRead info: 68470 us[0m
+[0m[[0mdebug[0m] [0mCompute reachability: 96408 us[0m
+[0m[[0mdebug[0m] [0mOptimizer batch mode: true[0m
+[0m[[0mdebug[0m] [0mIncremental part of inc. optimizer: 127538 us[0m
+[0m[[0mdebug[0m] [0mOptimizing 139 methods.[0m
+[0m[[0mdebug[0m] [0mOptimizer part of inc. optimizer: 120801 us[0m
+[0m[[0mdebug[0m] [0mInliner: 250478 us[0m
+[0m[[0mdebug[0m] [0mRefined reachability analysis: 73246 us[0m
+[0m[[0mdebug[0m] [0mOptimizations part: 421527 us[0m
+[0m[[0mdebug[0m] [0mWrite DCE'ed output: 110760 us[0m
+[0m[[0mdebug[0m] [0mInc. opt stats: reused: 0 -- invalidated: 3343 -- trees read: 31[0m

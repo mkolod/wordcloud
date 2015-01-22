@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0mPackaging /Users/mkolodziej/src/wordcloud/playApp/target/scala-2.11/playapp_2.11-0.1-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	application.conf[0m
+[0m[[0mdebug[0m] [0m	  /Users/mkolodziej/src/wordcloud/playApp/conf/application.conf[0m
+[0m[[0mdebug[0m] [0m	routes[0m
+[0m[[0mdebug[0m] [0m	  /Users/mkolodziej/src/wordcloud/playApp/conf/routes[0m
+[0m[[0mdebug[0m] [0m	controllers/Application.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/mkolodziej/src/wordcloud/playApp/app/controllers/Application.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

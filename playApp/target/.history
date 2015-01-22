@@ -1,0 +1,8 @@
+exit
+run
+project playApp
+playStart
+run
+reload
+sbt
+run
