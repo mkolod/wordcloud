@@ -4,7 +4,7 @@
 		module="scalajs_sjs0.5_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20150122120015"
+		publication="20150125151915"
 	>
 		<description>
 		scalajs
@@ -34,9 +34,13 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.2" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.2" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.webjars" name="bootstrap" rev="3.3.1" conf="compile->default(compile)"/>
+		<dependency org="org.webjars" name="d3js" rev="3.5.3" conf="compile->default(compile)"/>
+		<dependency org="org.webjars" name="d3-cloud" rev="1.0.5" conf="compile->default(compile)"/>
 		<dependency org="org.scala-lang.modules.scalajs" name="scalajs-compiler_2.11.2" rev="0.5.6" conf="plugin->default(compile)"/>
 		<dependency org="org.scala-lang.modules.scalajs" name="scalajs-library_2.11" rev="0.5.6" conf="compile->default(compile)"/>
 		<dependency org="org.scala-lang.modules.scalajs" name="scalajs-dom_sjs0.5_2.11" rev="0.6" conf="compile->default(compile)"/>
+		<dependency org="org.scala-lang.modules.scalajs" name="scalajs-jquery_sjs0.5_2.11" rev="0.6" conf="compile->default(compile)"/>
 		<dependency org="org.scala-lang.modules.scalajs" name="scalajs-jasmine-test-framework_2.11" rev="0.5.6" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -7,13 +7,26 @@
 		revision="0.1"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150122120015"/>
+		date="20150125151915"/>
 	<dependencies>
+		<module organisation="org.scala-lang.modules.scalajs" name="scalajs-jquery_sjs0.5_2.11">
+			<revision name="0.6" status="release" pubdate="20140613155302" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="7">
+				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="1834" time="0" location="/Users/mkolodziej/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-jquery_sjs0.5_2.11/ivy-0.6.xml" searched="false" origin-is-local="false" origin-location="http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-jquery_sjs0.5_2.11/0.6/ivys/ivy.xml"/>
+				<caller organisation="scalajs" name="scalajs_sjs0.5_2.11" conf="compile" rev="0.6" rev-constraint-default="0.6" rev-constraint-dynamic="0.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalajs-jquery_sjs0.5_2.11" type="jar" ext="jar" status="no" details="" size="51470" time="0" location="/Users/mkolodziej/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-jquery_sjs0.5_2.11/jars/scalajs-jquery_sjs0.5_2.11-0.6.jar">
+						<origin-location is-local="false" location="http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-jquery_sjs0.5_2.11/0.6/jars/scalajs-jquery_sjs0.5_2.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.scala-lang.modules.scalajs" name="scalajs-dom_sjs0.5_2.11">
-			<revision name="0.6" status="release" pubdate="20140613154429" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="2">
+			<revision name="0.6" status="release" pubdate="20140613154429" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="6">
 				<license name="MIT" url="http://opensource.org/licenses/mit-license.php"/>
 				<metadata-artifact status="no" details="" size="1584" time="0" location="/Users/mkolodziej/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-dom_sjs0.5_2.11/ivy-0.6.xml" searched="false" origin-is-local="false" origin-location="http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-dom_sjs0.5_2.11/0.6/ivys/ivy.xml"/>
 				<caller organisation="scalajs" name="scalajs_sjs0.5_2.11" conf="compile" rev="0.6" rev-constraint-default="0.6" rev-constraint-dynamic="0.6" callerrev="0.1"/>
+				<caller organisation="org.scala-lang.modules.scalajs" name="scalajs-jquery_sjs0.5_2.11" conf="compile" rev="0.6" rev-constraint-default="0.6" rev-constraint-dynamic="0.6" callerrev="0.6"/>
 				<artifacts>
 					<artifact name="scalajs-dom_sjs0.5_2.11" type="jar" ext="jar" status="no" details="" size="1019327" time="0" location="/Users/mkolodziej/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-dom_sjs0.5_2.11/jars/scalajs-dom_sjs0.5_2.11-0.6.jar">
 						<origin-location is-local="false" location="http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-dom_sjs0.5_2.11/0.6/jars/scalajs-dom_sjs0.5_2.11.jar"/>
@@ -22,7 +35,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules.scalajs" name="scalajs-library_2.11">
-			<revision name="0.5.6" status="release" pubdate="20141119133854" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
+			<revision name="0.5.6" status="release" pubdate="20141119133854" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="5">
 				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
 				<metadata-artifact status="no" details="" size="1466" time="0" location="/Users/mkolodziej/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-library_2.11/ivy-0.5.6.xml" searched="false" origin-is-local="false" origin-location="http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/ivys/ivy.xml"/>
 				<caller organisation="scalajs" name="scalajs_sjs0.5_2.11" conf="compile" rev="0.5.6" rev-constraint-default="0.5.6" rev-constraint-dynamic="0.5.6" callerrev="0.1"/>
@@ -35,7 +48,71 @@
 			</revision>
 			<revision name="0.5.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, default(compile)" position="-1">
 				<evicted-by rev="0.5.6"/>
+				<caller organisation="org.scala-lang.modules.scalajs" name="scalajs-jquery_sjs0.5_2.11" conf="compile" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="0.6"/>
 				<caller organisation="org.scala-lang.modules.scalajs" name="scalajs-dom_sjs0.5_2.11" conf="compile" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="0.6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.webjars" name="d3-cloud">
+			<revision name="1.0.5" status="release" pubdate="20141113172332" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="BSD-3-Clause" url="https://github.com/jasondavies/d3-cloud/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3763" time="0" location="/Users/mkolodziej/.ivy2/cache/org.webjars/d3-cloud/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/d3-cloud/1.0.5/d3-cloud-1.0.5.pom"/>
+				<caller organisation="scalajs" name="scalajs_sjs0.5_2.11" conf="compile" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="d3-cloud" type="jar" ext="jar" status="no" details="" size="6213" time="0" location="/Users/mkolodziej/.ivy2/cache/org.webjars/d3-cloud/jars/d3-cloud-1.0.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/webjars/d3-cloud/1.0.5/d3-cloud-1.0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.webjars" name="d3js">
+			<revision name="3.5.3" status="release" pubdate="20150113061016" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="3">
+				<license name="The BSD 3-Clause License" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3487" time="0" location="/Users/mkolodziej/.ivy2/cache/org.webjars/d3js/ivy-3.5.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/d3js/3.5.3/d3js-3.5.3.pom"/>
+				<caller organisation="scalajs" name="scalajs_sjs0.5_2.11" conf="compile" rev="3.5.3" rev-constraint-default="3.5.3" rev-constraint-dynamic="3.5.3" callerrev="0.1"/>
+				<caller organisation="org.webjars" name="d3-cloud" conf="default, compile, runtime, master" rev="3.4.13" rev-constraint-default="3.4.13" rev-constraint-dynamic="3.4.13" callerrev="1.0.5"/>
+				<artifacts>
+					<artifact name="d3js" type="jar" ext="jar" status="no" details="" size="130022" time="0" location="/Users/mkolodziej/.ivy2/cache/org.webjars/d3js/jars/d3js-3.5.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/webjars/d3js/3.5.3/d3js-3.5.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="3.4.13" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="-1">
+				<evicted-by rev="3.5.3"/>
+				<caller organisation="scalajs" name="scalajs_sjs0.5_2.11" conf="compile" rev="3.5.3" rev-constraint-default="3.5.3" rev-constraint-dynamic="3.5.3" callerrev="0.1"/>
+				<caller organisation="org.webjars" name="d3-cloud" conf="default, compile, runtime, master" rev="3.4.13" rev-constraint-default="3.4.13" rev-constraint-dynamic="3.4.13" callerrev="1.0.5"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.webjars" name="bootstrap">
+			<revision name="3.3.1" status="release" pubdate="20141112100850" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3877" time="0" location="/Users/mkolodziej/.ivy2/cache/org.webjars/bootstrap/ivy-3.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/bootstrap/3.3.1/bootstrap-3.3.1.pom"/>
+				<caller organisation="scalajs" name="scalajs_sjs0.5_2.11" conf="compile" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="bootstrap" type="jar" ext="jar" status="no" details="" size="354385" time="0" location="/Users/mkolodziej/.ivy2/cache/org.webjars/bootstrap/jars/bootstrap-3.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/webjars/bootstrap/3.3.1/bootstrap-3.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.webjars" name="jquery">
+			<revision name="1.11.1" status="release" pubdate="20140503111849" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="2">
+				<license name="MIT License" url="https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3628" time="0" location="/Users/mkolodziej/.ivy2/cache/org.webjars/jquery/ivy-1.11.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/webjars/jquery/1.11.1/jquery-1.11.1.pom"/>
+				<caller organisation="org.scala-lang.modules.scalajs" name="scalajs-jquery_sjs0.5_2.11" conf="compile" rev="1.10.2" rev-constraint-default="1.10.2" rev-constraint-dynamic="1.10.2" callerrev="0.6"/>
+				<caller organisation="org.webjars" name="bootstrap" conf="default, compile, runtime, master" rev="1.11.1" rev-constraint-default="1.11.1" rev-constraint-dynamic="1.11.1" callerrev="3.3.1"/>
+				<artifacts>
+					<artifact name="jquery" type="jar" ext="jar" status="no" details="" size="178233" time="0" location="/Users/mkolodziej/.ivy2/cache/org.webjars/jquery/jars/jquery-1.11.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/webjars/jquery/1.11.1/jquery-1.11.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.10.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="default, compile, runtime, default(compile), master" position="-1">
+				<evicted-by rev="1.11.1"/>
+				<caller organisation="org.scala-lang.modules.scalajs" name="scalajs-jquery_sjs0.5_2.11" conf="compile" rev="1.10.2" rev-constraint-default="1.10.2" rev-constraint-dynamic="1.10.2" callerrev="0.6"/>
 				<artifacts>
 				</artifacts>
 			</revision>
@@ -55,6 +132,7 @@
 			</revision>
 			<revision name="2.11.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="default, compile, runtime, default(compile), master" position="-1">
 				<evicted-by rev="2.11.2"/>
+				<caller organisation="org.scala-lang.modules.scalajs" name="scalajs-jquery_sjs0.5_2.11" conf="compile" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.6"/>
 				<caller organisation="org.scala-lang.modules.scalajs" name="scalajs-dom_sjs0.5_2.11" conf="compile" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.6"/>
 				<artifacts>
 				</artifacts>

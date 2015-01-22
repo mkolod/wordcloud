@@ -4,9 +4,9 @@
     <groupId>playapp</groupId>
     <artifactId>playapp_2.11</artifactId>
     <packaging>jar</packaging>
-    <description>playapp</description>
+    <description>playApp</description>
     <version>0.1</version>
-    <name>playapp</name>
+    <name>playApp</name>
     <organization>
         <name>playapp</name>
     </organization>
@@ -37,12 +37,56 @@
             <artifactId>jquery</artifactId>
             <version>1.11.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.twitter4j</groupId>
+            <artifactId>twitter4j-core</artifactId>
+            <version>4.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.twitter4j</groupId>
+            <artifactId>twitter4j-stream</artifactId>
+            <version>4.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>ws.securesocial</groupId>
+            <artifactId>securesocial_2.11</artifactId>
+            <version>master-SNAPSHOT</version>
+            <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>ws.securesocial</groupId>
+            <artifactId>securesocial_2.11</artifactId>
+            <version>master-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>ws.securesocial</groupId>
+            <artifactId>securesocial_2.11</artifactId>
+            <version>master-SNAPSHOT</version>
+            <classifier>assets</classifier>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe.play</groupId>
+            <artifactId>play-ws_2.11</artifactId>
+            <version>2.3.7</version>
+        </dependency>
     </dependencies>
     <repositories>
         <repository>
             <id>TypesafeReleasesRepository</id>
             <name>Typesafe Releases Repository</name>
             <url>https://repo.typesafe.com/typesafe/releases/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>sonatypereleases</id>
+            <name>sonatype-releases</name>
+            <url>https://oss.sonatype.org/content/repositories/releases/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>sonatypesnapshots</id>
+            <name>sonatype-snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
             <layout>default</layout>
         </repository>
     </repositories>

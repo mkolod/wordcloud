@@ -7,13 +7,54 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for scalajs#scalajs_sjs0.5_2.11;0.1 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5cbf2b1c[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@733c9fce[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.2[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.2] org.scala-lang#scala-library;2.11.2[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.webjars#bootstrap;3.3.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.webjars#bootstrap;3.3.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.webjars#bootstrap;3.3.1[0m
+[0m[[0mdebug[0m] [0m	found org.webjars#bootstrap;3.3.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.webjars#jquery;1.11.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.webjars#jquery;1.11.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.webjars#jquery;1.11.1[0m
+[0m[[0mdebug[0m] [0m	found org.webjars#jquery;1.11.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.webjars#d3js;3.5.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.webjars#d3js;3.5.3 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.webjars#d3js;3.5.3[0m
+[0m[[0mdebug[0m] [0m	found org.webjars#d3js;3.5.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.webjars#d3-cloud;1.0.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.webjars#d3-cloud;1.0.5 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.webjars#d3-cloud;1.0.5[0m
+[0m[[0mdebug[0m] [0m	found org.webjars#d3-cloud;1.0.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.4.13 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.4.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.4.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 {compile=[default(compile)]}[0m
@@ -35,6 +76,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for scalajs#scalajs_sjs0.5_2.11;0.1 [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for scalajs#scalajs_sjs0.5_2.11;0.1 [compile][0m
@@ -42,6 +101,29 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.4.13 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.4.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.4.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
@@ -55,6 +137,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for scalajs#scalajs_sjs0.5_2.11;0.1 [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for scalajs#scalajs_sjs0.5_2.11;0.1 [runtime][0m
@@ -63,6 +159,29 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.4.13 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.4.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.4.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
@@ -76,6 +195,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang.modules.scalajs#scalajs-jasmine-test-framework_2.11;0.5.6 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules.scalajs#scalajs-jasmine-test-framework_2.11;0.5.6 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules.scalajs#scalajs-jasmine-test-framework_2.11;0.5.6 {test=[default(compile)]}[0m
@@ -115,6 +248,29 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.4.13 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.4.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.4.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
@@ -128,6 +284,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for scalajs#scalajs_sjs0.5_2.11;0.1 [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for scalajs#scalajs_sjs0.5_2.11;0.1 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -138,6 +308,29 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.4.13 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.4.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.4.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
@@ -151,6 +344,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for scalajs#scalajs_sjs0.5_2.11;0.1 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for scalajs#scalajs_sjs0.5_2.11;0.1 [test-internal][0m
@@ -161,6 +368,29 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#bootstrap;3.3.1->org.webjars#jquery;1.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#bootstrap;3.3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3js;3.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.4.13 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.4.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.4.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#d3-cloud;1.0.5->org.webjars#d3js;3.5.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.webjars#d3-cloud;1.0.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
@@ -174,6 +404,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.webjars#jquery;1.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scalajs#scalajs_sjs0.5_2.11;0.1->org.scala-lang.modules.scalajs#scalajs-jasmine-test-framework_2.11;0.5.6 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jasmine-test-framework_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-jasmine-test-framework_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
@@ -340,8 +584,13 @@
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.webjars#bootstrap;3.3.1!bootstrap.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.webjars#d3js;3.5.3!d3js.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.webjars#d3-cloud;1.0.5!d3-cloud.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6!scalajs-library_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6!scalajs-dom_sjs0.5_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules.scalajs#scalajs-jquery_sjs0.5_2.11;0.6!scalajs-jquery_sjs0.5_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.webjars#jquery;1.11.1!jquery.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules.scalajs#scalajs-jasmine-test-framework_2.11;0.5.6!scalajs-jasmine-test-framework_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules.scalajs#scalajs-test-bridge_2.11;0.5.6!scalajs-test-bridge_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.webjars#jasmine;1.3.1!jasmine.jar[0m
@@ -351,7 +600,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 299ms :: artifacts dl 9ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 61ms :: artifacts dl 4ms[0m
 [0m[[0mdebug[0m] [0m	report for scalajs#scalajs_sjs0.5_2.11;0.1 compile produced in /Users/mkolodziej/src/wordcloud/scalaJs/target/resolution-cache/reports/scalajs-scalajs_sjs0.5_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for scalajs#scalajs_sjs0.5_2.11;0.1 runtime produced in /Users/mkolodziej/src/wordcloud/scalaJs/target/resolution-cache/reports/scalajs-scalajs_sjs0.5_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for scalajs#scalajs_sjs0.5_2.11;0.1 test produced in /Users/mkolodziej/src/wordcloud/scalaJs/target/resolution-cache/reports/scalajs-scalajs_sjs0.5_2.11-test.xml[0m
@@ -365,5 +614,5 @@
 [0m[[0mdebug[0m] [0m	report for scalajs#scalajs_sjs0.5_2.11;0.1 docs produced in /Users/mkolodziej/src/wordcloud/scalaJs/target/resolution-cache/reports/scalajs-scalajs_sjs0.5_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for scalajs#scalajs_sjs0.5_2.11;0.1 pom produced in /Users/mkolodziej/src/wordcloud/scalaJs/target/resolution-cache/reports/scalajs-scalajs_sjs0.5_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for scalajs#scalajs_sjs0.5_2.11;0.1 scala-tool produced in /Users/mkolodziej/src/wordcloud/scalaJs/target/resolution-cache/reports/scalajs-scalajs_sjs0.5_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (299ms resolve - 9ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (61ms resolve - 4ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

@@ -4,10 +4,10 @@
 		module="playapp_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20150122114017"
+		publication="20150125151920"
 	>
 		<description>
-		playapp
+		playApp
 		</description>
 	</info>
 	<configurations>
@@ -39,5 +39,13 @@
 		<dependency org="com.typesafe.play" name="play-test_2.11" rev="2.3.7" conf="test->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-docs_2.11" rev="2.3.7" conf="docs->default(compile)"/>
 		<dependency org="org.webjars" name="jquery" rev="1.11.1" conf="compile->default(compile)"/>
+		<dependency org="org.twitter4j" name="twitter4j-core" rev="4.0.2" conf="compile->default(compile)"/>
+		<dependency org="org.twitter4j" name="twitter4j-stream" rev="4.0.2" conf="compile->default(compile)"/>
+		<dependency org="ws.securesocial" name="securesocial_2.11" rev="master-SNAPSHOT" conf="compile->default(compile)">
+			<artifact name="securesocial_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="securesocial_2.11" type="jar" ext="jar" conf="*"/>
+			<artifact name="securesocial_2.11" type="jar" ext="jar" conf="*" e:classifier="assets"/>
+		</dependency>
+		<dependency org="com.typesafe.play" name="play-ws_2.11" rev="2.3.7" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

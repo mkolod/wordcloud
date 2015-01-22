@@ -1,9 +1,23 @@
 [0m[[0minfo[0m] [0mPackaging /Users/mkolodziej/src/wordcloud/playApp/target/scala-2.11/playapp_2.11-0.1-sources.jar ...[0m
 [0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	service/InMemoryUserService.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/mkolodziej/src/wordcloud/playApp/app/service/InMemoryUserService.scala[0m
 [0m[[0mdebug[0m] [0m	application.conf[0m
 [0m[[0mdebug[0m] [0m	  /Users/mkolodziej/src/wordcloud/playApp/conf/application.conf[0m
 [0m[[0mdebug[0m] [0m	routes[0m
 [0m[[0mdebug[0m] [0m	  /Users/mkolodziej/src/wordcloud/playApp/conf/routes[0m
+[0m[[0mdebug[0m] [0m	Global.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/mkolodziej/src/wordcloud/playApp/app/Global.scala[0m
+[0m[[0mdebug[0m] [0m	controllers/CustomLoginController.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/mkolodziej/src/wordcloud/playApp/app/controllers/CustomLoginController.scala[0m
+[0m[[0mdebug[0m] [0m	securesocial.conf[0m
+[0m[[0mdebug[0m] [0m	  /Users/mkolodziej/src/wordcloud/playApp/conf/securesocial.conf[0m
+[0m[[0mdebug[0m] [0m	play.plugins[0m
+[0m[[0mdebug[0m] [0m	  /Users/mkolodziej/src/wordcloud/playApp/conf/play.plugins[0m
 [0m[[0mdebug[0m] [0m	controllers/Application.scala[0m
 [0m[[0mdebug[0m] [0m	  /Users/mkolodziej/src/wordcloud/playApp/app/controllers/Application.scala[0m
+[0m[[0mdebug[0m] [0m	service/MyEventListener.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/mkolodziej/src/wordcloud/playApp/app/service/MyEventListener.scala[0m
+[0m[[0mdebug[0m] [0m	shared/SharedMessages.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/mkolodziej/src/wordcloud/sharedScala/src/main/scala/shared/SharedMessages.scala[0m
 [0m[[0minfo[0m] [0mDone packaging.[0m

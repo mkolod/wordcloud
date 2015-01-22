@@ -1,6 +1,111 @@
-2015-01-22 12:49:11,729 - [INFO] - from play in pool-14-thread-6 
+2015-01-27 06:51:52,502 - [INFO] - from play in pool-4-thread-7 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2015-01-22 12:49:22,906 - [INFO] - from play in play-internal-execution-context-1 
+2015-01-27 06:52:01,731 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
+
+2015-01-27 06:52:02,345 - [DEBUG] - from securesocial.core.SecuredActionBuilder in ForkJoinPool-3-worker-9 
+[securesocial] anonymous user trying to access : '/'
+
+2015-01-27 06:52:02,346 - [DEBUG] - from securesocial.core.SecuredActionBuilder in ForkJoinPool-3-worker-7 
+[securesocial] anonymous user trying to access : '/'
+
+2015-01-27 06:52:02,385 - [DEBUG] - from securesocial.core.DefaultRoutesService in ForkJoinPool-3-worker-9 
+[securesocial] securesocial.faviconPath = images/favicon.png
+
+2015-01-27 06:52:02,389 - [DEBUG] - from securesocial.core.DefaultRoutesService in ForkJoinPool-3-worker-9 
+[securesocial] securesocial.jqueryPath = javascripts/jquery-1.7.1.min.js
+
+2015-01-27 06:52:02,389 - [DEBUG] - from securesocial.core.DefaultRoutesService in ForkJoinPool-3-worker-9 
+[securesocial] custom css path = None
+
+2015-01-27 06:52:02,579 - [DEBUG] - from application in New I/O worker #2 
+using CustomLoginController
+
+2015-01-27 06:52:09,678 - [DEBUG] - from application.controllers.InMemoryUserService in play-akka.actor.default-dispatcher-5 
+users = Map()
+
+2015-01-27 06:52:09,683 - [DEBUG] - from securesocial.core.providers.utils.Mailer.Default in ForkJoinPool-3-worker-9 
+[securesocial] sending email to mkolod@gmail.com
+
+2015-01-27 06:52:09,684 - [DEBUG] - from securesocial.core.providers.utils.Mailer.Default in ForkJoinPool-3-worker-9 
+[securesocial] mail = [(None,Some(
+<html>
+<body>
+<p>Hello,</p>
+
+<p>Please follow this
+    <a href="http://localhost:9000/auth/signup/88351991-3ecb-47c2-863b-d3f0e3e11bcc">link</a> to complete your registration.
+</p>
+</body>
+</html>))]
+
+2015-01-27 06:52:09,686 - [DEBUG] - from application in New I/O worker #5 
+using CustomLoginController
+
+2015-01-27 06:52:09,693 - [INFO] - from play in ForkJoinPool-3-worker-9 
+Starting application default Akka system.
+
+2015-01-27 06:52:14,473 - [DEBUG] - from securesocial.controllers.Registration in play-akka.actor.default-dispatcher-3 
+[securesocial] trying sign up with token 88351991-3ecb-47c2-863b-d3f0e3e11bcc
+
+2015-01-27 06:52:21,937 - [DEBUG] - from securesocial.core.providers.utils.Mailer.Default in ForkJoinPool-3-worker-9 
+[securesocial] sending email to mkolod@gmail.com
+
+2015-01-27 06:52:21,937 - [DEBUG] - from securesocial.core.providers.utils.Mailer.Default in ForkJoinPool-3-worker-9 
+[securesocial] mail = [(None,Some(
+<html>
+<body>
+<p>Welcome Marek,</p>
+
+<p>
+    Your new account is ready.
+    Click <a href="http://localhost:9000/custom/login">here</a> to log in</p>
+</body>
+</html>))]
+
+2015-01-27 06:52:21,942 - [INFO] - from application in ForkJoinPool-3-worker-9 
+traced signup event for user mkolod@gmail.com
+
+2015-01-27 06:52:21,943 - [INFO] - from application in ForkJoinPool-3-worker-9 
+current language is Lang(en,)
+
+2015-01-27 06:52:21,948 - [DEBUG] - from application in New I/O worker #2 
+using CustomLoginController
+
+2015-01-27 06:52:29,790 - [DEBUG] - from application.controllers.InMemoryUserService in ForkJoinPool-3-worker-5 
+users = Map((userpass,mkolod@gmail.com) -> DemoUser(BasicProfile(userpass,mkolod@gmail.com,Some(Marek),Some(Kolodziej),Some(Marek Kolodziej),Some(mkolod@gmail.com),None,AuthenticationMethod(userPassword),None,None,Some(PasswordInfo(bcrypt,$2a$10$ObFQPL0rwcX.6uOaPwS.LOMSNHKAHYPpoPsFfkzbnOq6OyHn.8VSy,None))),List(BasicProfile(userpass,mkolod@gmail.com,Some(Marek),Some(Kolodziej),Some(Marek Kolodziej),Some(mkolod@gmail.com),None,AuthenticationMethod(userPassword),None,None,Some(PasswordInfo(bcrypt,$2a$10$ObFQPL0rwcX.6uOaPwS.LOMSNHKAHYPpoPsFfkzbnOq6OyHn.8VSy,None))))))
+
+2015-01-27 06:52:29,929 - [DEBUG] - from application.controllers.InMemoryUserService in ForkJoinPool-3-worker-7 
+users = Map((userpass,mkolod@gmail.com) -> DemoUser(BasicProfile(userpass,mkolod@gmail.com,Some(Marek),Some(Kolodziej),Some(Marek Kolodziej),Some(mkolod@gmail.com),None,AuthenticationMethod(userPassword),None,None,Some(PasswordInfo(bcrypt,$2a$10$ObFQPL0rwcX.6uOaPwS.LOMSNHKAHYPpoPsFfkzbnOq6OyHn.8VSy,None))),List(BasicProfile(userpass,mkolod@gmail.com,Some(Marek),Some(Kolodziej),Some(Marek Kolodziej),Some(mkolod@gmail.com),None,AuthenticationMethod(userPassword),None,None,Some(PasswordInfo(bcrypt,$2a$10$ObFQPL0rwcX.6uOaPwS.LOMSNHKAHYPpoPsFfkzbnOq6OyHn.8VSy,None))))))
+
+2015-01-27 06:52:29,944 - [DEBUG] - from securesocial.controllers.ProviderController in ForkJoinPool-3-worker-7 
+[securesocial] user completed authentication: provider = userpass, userId: mkolod@gmail.com, mode = SaveMode(loggedIn)
+
+2015-01-27 06:52:29,945 - [INFO] - from application in ForkJoinPool-3-worker-7 
+traced login event for user mkolod@gmail.com
+
+2015-01-27 06:52:29,945 - [INFO] - from application in ForkJoinPool-3-worker-7 
+current language is Lang(en,)
+
+2015-01-27 06:52:29,957 - [DEBUG] - from securesocial.core.authenticator.CookieAuthenticator in ForkJoinPool-3-worker-9 
+touched: lastUsed = 2015-01-27T06:52:29.946-08:00
+
+2015-01-27 06:52:31,670 - [DEBUG] - from securesocial.core.authenticator.CookieAuthenticator in ForkJoinPool-3-worker-5 
+touched: lastUsed = 2015-01-27T06:52:29.956-08:00
+
+2015-01-27 06:52:31,672 - [DEBUG] - from securesocial.core.providers.TwitterProvider in ForkJoinPool-3-worker-5 
+[securesocial] callback url = http://localhost:9000/auth/authenticate/twitter
+
+2015-01-27 06:52:32,566 - [DEBUG] - from securesocial.core.authenticator.CookieAuthenticator in ForkJoinPool-3-worker-7 
+touched: lastUsed = 2015-01-27T06:52:31.670-08:00
+
+2015-01-27 06:52:33,160 - [DEBUG] - from securesocial.core.authenticator.CookieAuthenticator in ForkJoinPool-3-worker-7 
+updated user: CookieAuthenticator(2cdea198ab574dcb68b40591cf683908d598c9813563fa60c789986dc14e482768af9e67d34f89e26e670f942045920e5bddbffe3ac8b52f3441b5f997fa93b83b6dca824807da5e413c75bf23a7f3c2a43dffab707cc60880d2db6fc9fcadab0a276fd0d06c8f3c737611422744b3b756d6244baa04fd1d4aa36f39465e3104,DemoUser(BasicProfile(userpass,mkolod@gmail.com,Some(Marek),Some(Kolodziej),Some(Marek Kolodziej),Some(mkolod@gmail.com),None,AuthenticationMethod(userPassword),None,None,Some(PasswordInfo(bcrypt,$2a$10$ObFQPL0rwcX.6uOaPwS.LOMSNHKAHYPpoPsFfkzbnOq6OyHn.8VSy,None))),List(BasicProfile(twitter,709676046,None,None,Some(Marek Kolodziej),None,Some(https://pbs.twimg.com/profile_images/378800000387149741/d722158d06ecb7e4c0d807ac29353717_normal.png),AuthenticationMethod(oauth1),Some(OAuth1Info(709676046-LfRcSy19mzUTdRz46Ziv8vg3sIHhPYwvf1HP87eQ,0hheOwdDCUAHp7WyOGKb4hPW2QOPvPTVtarujASKtfEEF)),None,None), BasicProfile(userpass,mkolod@gmail.com,Some(Marek),Some(Kolodziej),Some(Marek Kolodziej),Some(mkolod@gmail.com),None,AuthenticationMethod(userPassword),None,None,Some(PasswordInfo(bcrypt,$2a$10$ObFQPL0rwcX.6uOaPwS.LOMSNHKAHYPpoPsFfkzbnOq6OyHn.8VSy,None))))),2015-01-27T18:52:29.946-08:00,2015-01-27T06:52:32.566-08:00,2015-01-27T06:52:29.946-08:00,securesocial.core.authenticator.AuthenticatorStore$Default@3ce06830)
+
+2015-01-27 06:52:33,161 - [DEBUG] - from securesocial.controllers.ProviderController in ForkJoinPool-3-worker-7 
+[securesocial] linked DemoUser(BasicProfile(userpass,mkolod@gmail.com,Some(Marek),Some(Kolodziej),Some(Marek Kolodziej),Some(mkolod@gmail.com),None,AuthenticationMethod(userPassword),None,None,Some(PasswordInfo(bcrypt,$2a$10$ObFQPL0rwcX.6uOaPwS.LOMSNHKAHYPpoPsFfkzbnOq6OyHn.8VSy,None))),List(BasicProfile(userpass,mkolod@gmail.com,Some(Marek),Some(Kolodziej),Some(Marek Kolodziej),Some(mkolod@gmail.com),None,AuthenticationMethod(userPassword),None,None,Some(PasswordInfo(bcrypt,$2a$10$ObFQPL0rwcX.6uOaPwS.LOMSNHKAHYPpoPsFfkzbnOq6OyHn.8VSy,None))))) to: providerId = twitter
+
+2015-01-27 06:52:33,167 - [DEBUG] - from securesocial.core.authenticator.CookieAuthenticator in ForkJoinPool-3-worker-7 
+touched: lastUsed = 2015-01-27T06:52:32.566-08:00
 

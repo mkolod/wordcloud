@@ -1,6 +1,7 @@
 import sbt._
 import Keys._
 import play.Play._
+import play.Play.autoImport._
 import scala.scalajs.sbtplugin.ScalaJSPlugin._
 import ScalaJSKeys._
 import com.typesafe.sbt.packager.universal.UniversalKeys
@@ -12,11 +13,17 @@ object Dependencies {
   lazy val shared = Def.setting(Seq())
 
   lazy val playApp = Def.setting(shared.value ++ Seq(
-    "org.webjars" % "jquery" % "1.11.1"
+    "org.webjars"     % "jquery" % "1.11.1",
+    "org.twitter4j"   % "twitter4j-core" % "4.0.2",
+    "org.twitter4j"   % "twitter4j-stream" % "4.0.2",
+    "ws.securesocial" %% "securesocial" % "master-SNAPSHOT" withSources,
+    "ws.securesocial" %% "securesocial" % "master-SNAPSHOT" classifier "assets",
+    ws
   ))
 
   lazy val scalaJs =  Def.setting(shared.value ++ Seq(
     "org.scala-lang.modules.scalajs" %%% "scalajs-dom" % Versions.scalaJsDom,
+    "org.scala-lang.modules.scalajs" %%% "scalajs-jquery" % Versions.scalaJsJQuery,
     "org.scala-lang.modules.scalajs" %% "scalajs-jasmine-test-framework" % scalaJSVersion % "test"
   ))
 
@@ -27,6 +34,7 @@ object Versions {
   val app = "0.1"
   val scala = "2.11.2"
   val scalaJsDom = "0.6"
+  val scalaJsJQuery = "0.6"
 }
 
 object WordCloudBuild extends Build with UniversalKeys {
@@ -57,7 +65,8 @@ object WordCloudBuild extends Build with UniversalKeys {
     dist <<= dist dependsOn (fullOptJS in (scalaJs, Compile)),
     stage <<= stage dependsOn (fullOptJS in (scalaJs, Compile)),
     libraryDependencies ++= Dependencies.playApp.value,
-    commands ++= Seq(playStartCommand, startCommand)
+    commands ++= Seq(playStartCommand, startCommand),
+    resolvers ++= Seq(Resolver.sonatypeRepo("releases"), Resolver.sonatypeRepo("snapshots"))
   ) ++ sharedDirectorySettings
 
   lazy val scalaJsSettings = scalaJSSettings ++ Seq(
@@ -67,7 +76,13 @@ object WordCloudBuild extends Build with UniversalKeys {
     persistLauncher := true,
     persistLauncher in Test := false,
     relativeSourceMaps := true,
-    libraryDependencies ++= Dependencies.scalaJs.value
+    libraryDependencies ++= Dependencies.scalaJs.value,
+    skip in ScalaJSKeys.packageJSDependencies := false,
+    ScalaJSKeys.jsDependencies ++= Seq(
+      "org.webjars" % "bootstrap" % "3.3.1" / "bootstrap.js",
+      "org.webjars" % "d3js" % "3.5.3" / "d3.js",
+      "org.webjars" % "d3-cloud" % "1.0.5" / "d3.layout.cloud.js"
+    )
   ) ++ sharedDirectorySettings
 
     lazy val sharedScalaSettings = Seq(
