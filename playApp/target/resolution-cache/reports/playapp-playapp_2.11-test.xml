@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150125151920"/>
+		date="20150127151031"/>
 	<dependencies>
 		<module organisation="ws.securesocial" name="securesocial_2.11">
 			<revision name="master-SNAPSHOT" status="integration" pubdate="20141230100352" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.securesocial.ws" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="37">

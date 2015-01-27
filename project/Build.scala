@@ -22,9 +22,9 @@ object Dependencies {
   ))
 
   lazy val scalaJs =  Def.setting(shared.value ++ Seq(
-    "org.scala-lang.modules.scalajs" %%% "scalajs-dom" % Versions.scalaJsDom,
     "org.scala-lang.modules.scalajs" %%% "scalajs-jquery" % Versions.scalaJsJQuery,
-    "org.scala-lang.modules.scalajs" %% "scalajs-jasmine-test-framework" % scalaJSVersion % "test"
+    "org.scala-lang.modules.scalajs" %% "scalajs-jasmine-test-framework" % scalaJSVersion % "test",
+    "com.scalatags" %%% "scalatags" % "0.4.2"
   ))
 
 }

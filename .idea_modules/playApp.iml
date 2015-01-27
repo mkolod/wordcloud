@@ -30,10 +30,12 @@
       <sourceFolder url="file://$MODULE_DIR$/../sharedScala/src/test/resources" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/../playApp/target/native_libraries" />
       <excludeFolder url="file://$MODULE_DIR$/../playApp/target/resolution-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/../playApp/target/scala-2.11/api" />
       <excludeFolder url="file://$MODULE_DIR$/../playApp/target/scala-2.11/cache" />
       <excludeFolder url="file://$MODULE_DIR$/../playApp/target/scala-2.11/classes" />
       <excludeFolder url="file://$MODULE_DIR$/../playApp/target/scala-2.11/classes_managed" />
       <excludeFolder url="file://$MODULE_DIR$/../playApp/target/streams" />
+      <excludeFolder url="file://$MODULE_DIR$/../playApp/target/universal" />
       <excludeFolder url="file://$MODULE_DIR$/../playApp/target/web" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -152,6 +154,5 @@
     <orderEntry type="library" scope="TEST" name="SBT: org.easytesting:fest-assert:1.4:test" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.easytesting:fest-util:1.1.6:test" level="project" />
     <orderEntry type="module" module-name="scalaJs" exported="" />
-    <orderEntry type="library" name="scala-sdk-2.11.5" level="application" />
   </component>
 </module>

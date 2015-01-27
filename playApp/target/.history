@@ -61,3 +61,13 @@ fastOptJs
 fastOptJS
 start
 run
+reload
+update
+gen-idea
+compile
+reload
+update
+gen-idea
+fastOptJs
+fastOptJS
+compile

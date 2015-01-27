@@ -4,7 +4,7 @@
 		module="shared-scala-example$sources_javadoc_2.10"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20150124231801"
+		publication="20150127151050"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
