@@ -67,7 +67,9 @@ object WordCloudBuild extends Build with UniversalKeys {
     libraryDependencies ++= Dependencies.playApp.value,
     commands ++= Seq(playStartCommand, startCommand),
     resolvers ++= Seq(Resolver.sonatypeRepo("releases"), Resolver.sonatypeRepo("snapshots"))
-  ) ++ sharedDirectorySettings
+  ) ++ (Seq(packageLauncher, fastOptJS, fullOptJS) map {
+    packageJSKey => crossTarget in (scalaJs, Compile, packageJSKey) := scalajsOutputDir.value
+  }) ++ sharedDirectorySettings
 
   lazy val scalaJsSettings = scalaJSSettings ++ Seq(
     name := "scalajs",

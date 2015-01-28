@@ -78,96 +78,87 @@
           <script src="http://www.jasondavies.com/d3.min.js" type="text/javascript"></script>
           <!-- TODO: move this out of here, depend on WebJars -->
           <script src="http://www.jasondavies.com/wordcloud/d3.layout.cloud.js" type="text/javascript"></script>
-          <script>
-              var $overlay = $('<div id="overlay"></div>');
-              var $d3Box = $('<div id="d3_box"></div>');
-              var wordBuffer = [];
 
-              $overlay.append($d3Box);
-              $("body").append($overlay);
+          <script src="@routes.Assets.at("javascripts/scalajs-opt.js")" type="text/javascript"></script>
+          <script src="@routes.Assets.at("javascripts/scalajs-launcher.js")" type="text/javascript"></script>
+          @*<script>*@
+              @*var $overlay = $('<div id="overlay"></div>');*@
+              @*var $d3Box = $('<div id="d3_box"></div>');*@
+              @*var wordBuffer = [];*@
 
-              var showWordCloud = function() {
+              @*$overlay.append($d3Box);*@
+              @*$("body").append($overlay);*@
 
-                  var fill = d3.scale.category20 ( ) ;
-                  d3.layout.cloud ( ).size ([ $("#d3_box" ).width(), $("#d3_box" ).height() ])   //$("#d3_box" ).width(), $("#d3_box" ).height() ] )
-                  .words ( wordBuffer.map ( function ( d ) {
-                  return { text : d, size : 10 + Math.random ( ) * 90 } ;
-                  } ) )
-                  .padding ( 5 )
-                  .rotate ( function ( ) { return ~ ~ ( Math.random ( ) * 2 ) * 90 ; } )
-                  .font ( "Impact" )
-                  .fontSize ( function ( d ) { return d.size ; } )
-                  .on ( "end", draw )
-                  .start ( ) ;
+              @*var showWordCloud = function() {*@
 
-                  function draw ( words ) {
+                  @*var fill = d3.scale.category20 ( ) ;*@
+                  @*d3.layout.cloud ( ).size ([ $("#d3_box" ).width(), $("#d3_box" ).height() ])   //$("#d3_box" ).width(), $("#d3_box" ).height() ] )*@
+                  @*.words ( wordBuffer.map ( function ( d ) {*@
+                  @*return { text : d, size : 10 + Math.random ( ) * 90 } ;*@
+                  @*} ) )*@
+                  @*.padding ( 5 )*@
+                  @*.rotate ( function ( ) { return ~ ~ ( Math.random ( ) * 2 ) * 90 ; } )*@
+                  @*.font ( "Impact" )*@
+                  @*.fontSize ( function ( d ) { return d.size ; } )*@
+                  @*.on ( "end", draw )*@
+                  @*.start ( ) ;*@
 
-                    d3.select("#d3_box" ).selectAll("*").remove();
+                  @*function draw ( words ) {*@
 
-
-                      var width = $("#d3_box").width();
-                      var height = $("#d3_box").height();
-
-                      d3.select ( "#d3_box" ).append ( "svg" )
-                      .attr ( "width", '100%')
-                      .attr ( "height",'100%')
-                      .attr("viewBox", '0 0 ' + Math.min(width, height) + " " + Math.min(width, height))
-                      .attr("preserveAspectRatio", "xMidYMid") // not xMinYMin
-                      .append ( "g" )
-                      // translate(600, 300)
-                      .attr ( "transform", "translate(" + Math.min(width,height) / 2 + "," + Math.min(width,height) / 2 + ")")
-                      .selectAll ( "text" )
-                      .data ( words )
-                      .enter ( ).append ( "text" )
-                      .style ( "font-size", function ( d ) { return d.size + "px" ; } )
-                      .style ( "font-family", "Impact" )
-                      .style ( "fill", function ( d, i ) { return fill ( i ) ; } )
-                      .attr ( "text-anchor", "middle" )
-                      .attr ( "transform", function ( d ) {
-                      return "translate(" +[ d.x, d.y ] + ")rotate(" + d.rotate + ")" ;
-                      } )
-                      .text ( function ( d ) { return d.text ; } ) ;
-                  }
-              };
-
-                  /*
-                  var svg = d3.select('.chart-container').append("svg")
-    .attr("width", '100%')
-    .attr("height", '100%')
-    .attr('viewBox','0 0 '+Math.min(width,height)+' '+Math.min(width,height))
-    .attr('preserveAspectRatio','xMinYMin')
-    .append("g")
-    .attr("transform", "translate(" + Math.min(width,height) / 2 + "," + Math.min(width,height) / 2 + ")");
-                   */
-
-              var ws = null;
-              $("#twitter_button").click(function(event) {
-                event.preventDefault();
-                ws = new WebSocket("ws://localhost:9000/ws/twitter");
-                ws.onmessage = function (event) {
-
-                wordBuffer = wordBuffer.concat(event.data.split(" "));
-                    if (wordBuffer.length >= 300) {
-                      showWordCloud();
-                      wordBuffer = [];
-                    }
-                    console.log(event.data + "\n");
-                };
-                $overlay.show();
-                $d3Box.css('display','block');  //.show();
-
-              });
-
-              $overlay.click(function(){
-                ws.close();
-                ws = null;
-                $d3Box.hide();
-                $overlay.hide();
-              });
+                    @*d3.select("#d3_box" ).selectAll("*").remove();*@
 
 
+                      @*var width = $("#d3_box").width();*@
+                      @*var height = $("#d3_box").height();*@
 
-          </script>
+                      @*d3.select ( "#d3_box" ).append ( "svg" )*@
+                      @*.attr ( "width", '100%')*@
+                      @*.attr ( "height",'100%')*@
+                      @*.attr("viewBox", '0 0 ' + Math.min(width, height) + " " + Math.min(width, height))*@
+                      @*.attr("preserveAspectRatio", "xMidYMid") // not xMinYMin*@
+                      @*.append ( "g" )*@
+                      @*// translate(600, 300)*@
+                      @*.attr ( "transform", "translate(" + Math.min(width,height) / 2 + "," + Math.min(width,height) / 2 + ")")*@
+                      @*.selectAll ( "text" )*@
+                      @*.data ( words )*@
+                      @*.enter ( ).append ( "text" )*@
+                      @*.style ( "font-size", function ( d ) { return d.size + "px" ; } )*@
+                      @*.style ( "font-family", "Impact" )*@
+                      @*.style ( "fill", function ( d, i ) { return fill ( i ) ; } )*@
+                      @*.attr ( "text-anchor", "middle" )*@
+                      @*.attr ( "transform", function ( d ) {*@
+                      @*return "translate(" +[ d.x, d.y ] + ")rotate(" + d.rotate + ")" ;*@
+                      @*} )*@
+                      @*.text ( function ( d ) { return d.text ; } ) ;*@
+                  @*}*@
+              @*};*@
+
+              @*var ws = null;*@
+              @*$("#twitter_button").click(function(event) {*@
+                @*event.preventDefault();*@
+                @*ws = new WebSocket("ws://localhost:9000/ws/twitter");*@
+                @*ws.onmessage = function (event) {*@
+
+                @*wordBuffer = wordBuffer.concat(event.data.split(" "));*@
+                    @*if (wordBuffer.length >= 300) {*@
+                      @*showWordCloud();*@
+                      @*wordBuffer = [];*@
+                    @*}*@
+                    @*console.log(event.data + "\n");*@
+                @*};*@
+                @*$overlay.show();*@
+                @*$d3Box.css('display','block');  //.show();*@
+
+              @*});*@
+
+              @*$overlay.click(function(){ *@
+               @* ws.close();*@
+             @*   ws = null;*@
+              @*  $d3Box.hide();*@
+              @*  $overlay.hide();*@
+             @* });*@
+
+          @*</script>*@
         }
         <hr>
     }
